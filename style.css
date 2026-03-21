@@ -3,8 +3,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root{
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
+    font-family: 'DM Sans', sans-serif; 
+    font-weight: 800;
     font-style: normal;
     --cream: #F7F3EC;
     --cream-dark: #EDE7DB;
@@ -16,9 +16,8 @@
     --gold-light: #F5ECD4;
     --teal: #2A7B6F;
     --teal-light: #D4EDEA;
-    /* --border: rgba(28,24,20,0.12); */
-
 }
+
 body::after {
     content: '';
     position: fixed;
@@ -60,14 +59,14 @@ body::before {
 }
 
 .navbar{
-    padding: 20px 25px;
-    border: 1px solid var(--cream-dark);
+    padding: 30px 30px;
+    border-bottom: 1px solid var(--cream-dark);
     background-color: var(--cream-dark);
     position: fixed;
     top: 0; 
     left: 0; 
     right: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     z-index: 999;
 }
 
@@ -99,8 +98,10 @@ body::before {
 }
 
 .subtitle {
-    font-size: 18px; 
-    font-weight: 300; 
+    letter-spacing: 3px; 
+    text-transform: uppercase; 
+    font-family: Permanent Marker, cursive;
+    font-weight: 400;
     color: var(--ink-light);
     max-width: 520px; 
     line-height: 1.6; 
@@ -142,15 +143,13 @@ body::before {
 }
 
 .idea-title{
-    /* font-family: 'DM Sans', sans-serif; */
-    /* font-family: 'Shippori Mincho', serif; */
     font-size: 15px;
-    font-weight: 800; 
-    letter-spacing: 10px;
+    letter-spacing: 10px; 
     text-transform: uppercase; 
+    font-family: Permanent Marker, cursive;
+    font-weight: 400;
     color: var(--red);
     margin-left: 75px;
-    /* text-align: center; */
     margin-bottom: 30px;
 }
 
@@ -204,12 +203,73 @@ body::before {
 
 .vertical-line{
     border-left: 3px solid var(--gold);
-    height: 210px;
+    height: 220px;
 }
 
 .idea-head{
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+
+.reward-card{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 100px 100px;
+    border-radius: 10px;
+    background-color: var(--teal-light);
+    margin-bottom: 100px;
+}
+
+.reward-title{
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-weight: 800; 
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+    text-wrap: wrap;
+}
+
+.reward-text{
     font-family: 'DM Sans', sans-serif; 
     font-weight: 800;
+    margin-left: 10px;
+    text-wrap: wrap;
+}
+
+.reward-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+.stationary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stationary-card{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--gold-light);
+    background: var(--cream-dark);
+}
+
+.stationary-link{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.stationary-link:hover{
+    text-decoration: underline;
 }
