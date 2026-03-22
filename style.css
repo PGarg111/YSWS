@@ -107,7 +107,7 @@ body::before {
     letter-spacing: -.02em;
     color: var(--ink);
     position: relative;
-    /* animation: fadeUp .6s .1s ease both; */
+    animation: fadeUp .6s .1s ease both;
 }
 
 .subtitle {
@@ -120,7 +120,7 @@ body::before {
     line-height: 1.6; 
     margin: 28px auto 0;
     position: relative; 
-    /* animation: fadeUp .6s .2s ease both; */
+    animation: fadeUp .6s .2s ease both;
 }
 
 .subtitle-join{
@@ -145,7 +145,7 @@ body::before {
     gap: 12px; 
     margin-top: 40px;
     position: relative; 
-    /* animation: fadeUp .6s .3s ease both; */
+    animation: fadeUp .6s .3s ease both;
     flex-wrap: wrap; 
     justify-content: center;
 }
@@ -422,4 +422,15 @@ body::before {
     transform: translateY(-5px);
     text-decoration: underline;
     color: var(--red);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
