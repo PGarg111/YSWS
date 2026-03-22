@@ -9,12 +9,9 @@
     --cream: #F7F3EC;
     --cream-dark: #EDE7DB;
     --ink: #1C1814;
-    --ink-light: #4A3F35;
     --red: #C0392B;
-    --red-light: #E8D5D3;
     --gold: #C9992A;
     --gold-light: #F5ECD4;
-    --teal: #2A7B6F;
     --teal-light: #D4EDEA;
 }
 
@@ -279,7 +276,8 @@ body::before {
     flex-direction: column;
     margin-top: 32px;
     max-width: 1100px;
-    margin-left: 60px;
+    margin-left: 20%;
+    margin-right: 15%;
     margin-bottom: 100px;
 }
 
@@ -304,7 +302,6 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    user-select: none;
 }
 
 .faq-q::after { 
@@ -320,12 +317,12 @@ body::before {
 }
 
 .faq-card.open .faq-q{
-    color: #C0392B;
+    color: var(--red);
 }
 
-.faq-item.open .faq-q::after { 
+.faq-card.open .faq-q::after { 
     transform: rotate(45deg);
-    color: #C0392B;
+    color: var(--red);
 }
  
 .faq-a{
@@ -346,3 +343,35 @@ body::before {
 @media (max-width: 786px){
     .faq-q {font-size: 14px}
 }
+
+.footer{
+    padding: 25px 25px;
+    border-top: 1px solid var(--cream-dark);
+    background-color: var(--gold-light);
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--ink);
+}
+
+.footer-link:hover{
+    text-decoration:underline;
+    color: var(--red);
+}
+
+.linebreak{
+    border: none;
+    border-top: 6px solid var(--gold);
+    background-color: var(--gold);
+    height:5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
