@@ -228,7 +228,7 @@ body::before {
 }
 
 .vertical-line{
-    border-left: 3px solid var(--gold);
+    border: 1.5px solid var(--gold);
     height: 220px;
 }
 
