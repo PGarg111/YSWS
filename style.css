@@ -133,6 +133,7 @@ body::before {
     background: #1c181410;
     border-radius: 30px;
     margin-bottom: 30px;
+    animation: fadeUp .6s .1s ease both;
 }
 
 .sub strong { 
