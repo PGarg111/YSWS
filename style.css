@@ -297,6 +297,8 @@ body::before {
 
 .stationery-link:hover{
     text-decoration: underline;
+    text-decoration-color: var(--red);
+    color: var(--red);
 }
 
 .faq-box{
