@@ -1,6 +1,6 @@
 # YSWS
 
-This is a YSWS I designed where if you design a project (website, game, tool, etc.) which benefits students in school, you get Japanese stationery shipped to you. I designed this because I enjoy trying out different pens and pencils. I also feel that the quality of your writing utensils actually helps you in school. 
+This is a YSWS I designed where if you design a project (website, game, tool, etc.) which benefits students in school, you get Japanese stationery shipped to you. Some examples of projects are websites for clubs/teams, digital flashcards, review games, and timetables.I designed this because I enjoy trying out different pens and pencils. I imagine other Hack Clubers probably also enjoy this as well, so I though about creating a YSWS for it.  
 
 To qualify for stationery, you have to log at least 5 hours on your project and it must be open source and deployable on the web. The amount of stationery you recieve depends on the quality and time put in your project. 
 
