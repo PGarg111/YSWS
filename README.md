@@ -4,7 +4,7 @@ This is a YSWS I designed where if you design a project (website, game, tool, et
 
 To qualify for stationery, you have to log at least 5 hours on your project and it must be open source and deployable on the web. The amount of stationery you recieve depends on the quality and time put in your project. 
 
-I used mainly HTML and CSS to build website, with minimal JavaScript for the FAQ dropdowns. 
+I used mainly HTML and CSS to build the website.
 
 The most challenging aspect of creating this website was structuring it how I pictured it to be. Compared to some other websites that I made, this involved more attention to detail since its purpose was to grap the attention of others in an effort to persuade them. Although I had some idea of how to do this (got experience through building my personal website), I ended up taking more time than I hoped on some sections. 
 
