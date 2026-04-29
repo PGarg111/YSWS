@@ -335,7 +335,7 @@ body::before {
     align-items: center;
 }
 
-.faq-q::after { 
+.faq-q { 
     content: '+'; 
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -347,26 +347,18 @@ body::before {
     margin-left: 16px;
 }
 
-.faq-card.open .faq-q{
-    color: var(--red);
-}
-
-.faq-card.open .faq-q::after { 
-    transform: rotate(45deg);
-    color: var(--red);
-}
  
 .faq-a{
     line-height: 1.7;
-    margin: 0;
-    padding: 0;
+    margin-left: 15px;
+    padding: 20px 0;
     display: block;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.35s ease, padding .3s ease;
 }
 
-.faq-item.open .faq-a { 
+.faq-a { 
     max-height: 300px; 
     padding-bottom: 20px; 
 }

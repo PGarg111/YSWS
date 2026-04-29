@@ -184,27 +184,6 @@
     <div class="submit" style="text-align: center;">
         <button onclick="window.open('https://scholar.fillout.com/submission', '_blank')" class="submit-button">Submit</button>
     </div>
-    <script>
-        document.querySelectorAll('.faq-q').forEach(q => {
-            q.addEventListener('click', () => {
-                const card = q.closest('.faq-card');
-                const answer = card.querySelector('.faq-a');
-                const wasOpen = card.classList.contains('open');
-
-                document.querySelectorAll('.faq-card').forEach(c => {
-                    c.classList.remove('open');
-                    c.querySelector('.faq-a').style.maxHeight = '0px';
-                    c.querySelector('.faq-a').style.paddingBottom = '0px';
-                });
-
-                if (!wasOpen) {
-                    card.classList.add('open');
-                    answer.style.maxHeight = answer.scrollHeight + 20 + 'px';
-                    answer.style.paddingBottom = '20px';
-                }
-            });
-        });
-    </script>
     <div class="footer">
         <p>Scholar is an unofficial Hack Club YSWS</p>
         <div class="linebreak"></div>
